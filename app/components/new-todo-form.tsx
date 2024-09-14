@@ -32,6 +32,7 @@ export function NewToDoForm() {
           Description
         </label>
         <input
+          className="p-1 border rounded"
           type="text"
           name="description"
           id="description"
