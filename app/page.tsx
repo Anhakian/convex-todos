@@ -3,8 +3,8 @@ import { useState } from "react";
 import { NewToDoForm } from "./components/new-todo-form";
 
 type ToDoItem = {
-  title: String;
-  description: String;
+  title: string;
+  description: string;
   completed: boolean;
 };
 
@@ -59,8 +59,8 @@ function ToDoItem({
   onCompleteChanged,
   onRemove,
 }: {
-  title: String;
-  description: String;
+  title: string;
+  description: string;
   completed: boolean;
   onCompleteChanged: (completed: boolean) => void;
   onRemove: () => void;
